@@ -29,7 +29,7 @@ app.get("/api/soil-info", (req, res) => {
   res.json({
     soilMoisture: "45%",
     soilType: "Loamy",
-    recommendedFertilizer: "Urea + Organic compost",
+    recommendedFertilizer: "Urea",
     preventionTips: [
       "Avoid overwatering",
       "Rotate crops regularly",
